@@ -1,0 +1,4 @@
+﻿  Installer.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  Installer.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Installer.vcxproj -> C:\Users\Dean Winchester\source\repos\Installer\x64\Debug\Installer.exe

@@ -1,0 +1,6 @@
+C:\Users\Dean Winchester\source\repos\Installer\x64\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Dean Winchester\source\repos\Installer\x64\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Dean Winchester\source\repos\Installer\x64\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\Dean Winchester\source\repos\Installer\x64\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\Dean Winchester\source\repos\Installer\Installer\x64\Debug\Installer.vcxproj.AssemblyReference.cache
+C:\Users\Dean Winchester\source\repos\Installer\Installer\x64\Debug\Installer.vcxproj.Up2Date
