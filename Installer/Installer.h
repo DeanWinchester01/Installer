@@ -177,8 +177,6 @@ namespace Installer {
 		CommonOpenFileDialog^ dialog = gcnew CommonOpenFileDialog();
 		dialog->IsFolderPicker = true;
 
-		//String^ selectedPath = "";
-
 		if (dialog->ShowDialog() != CommonFileDialogResult::Ok) return;
 		selectedPath = dialog->FileName;
 
@@ -188,29 +186,6 @@ namespace Installer {
 			MessageBox::Show("Program already installed");
 			return;
 		}
-
-		/*
-		array<String^>^ userFiles = Directory::GetFileSystemEntries("C:\\Users");
-
-
-		bool foundLocation = false;
-		for (int i = 0; i < userFiles->Length; i++) {
-			array<String^>^ subArray = Directory::GetFileSystemEntries(userFiles[i]);
-			for (int j = 0; j < subArray->Length; j++) {
-				if (subArray[j]->EndsWith("Documents") && !subArray[j]->Contains("All Users")) {
-					FileStream^ saveFile = File::Create(subArray[j] + "\\ImageDetection.txt");
-					StreamWriter^ sw = gcnew StreamWriter(saveFile);
-					sw->WriteLine(selectedPath);
-					sw->Close();
-
-					foundLocation = true;
-					break;
-				}
-			}
-			if (foundLocation)
-				break;
-		}
-		*/
 
 
 		installWindow->Visible = false;
